@@ -2,9 +2,9 @@ import ccxt
 import pandas as pd
 from sqlalchemy import create_engine
 
-apikey = "a60bf2da-2747-4854-8e3a-07f2afe533e0"
-secretkey = "86EBB2B4452D76E508F6676BB1A2CB98"
-password="The1isyou"
+apikey = ""
+secretkey = ""
+password=""
 
 okex=ccxt.okex5({
     'apiKey':apikey,

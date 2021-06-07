@@ -34,3 +34,5 @@ def insert_phlcv(arg): #传入参数 插入数据到指定币种数据库
     df.tail(1).to_sql('eth_data',engine,index=False,if_exists='append') #数据库名 eth_data 小写
     
 insert_phlcv_ETH()
+insert_phlcv_ETH()
+insert_phlcv_ETH()
